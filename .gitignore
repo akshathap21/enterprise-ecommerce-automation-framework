@@ -1,0 +1,40 @@
+# === Maven/Build Artifacts ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# === Driver Binaries & Executables ===
+*.exe
+*.dll
+*.so
+*.dylib
+drivers/
+bin/
+
+# === Integrated Development Environments (IDEs) ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# Visual Studio Code
+.vscode/
+
+# === Operating System Noise ===
+.DS_Store
+Thumbs.db
+
+# === Test Reports & Output Logs ===
+test-output/
+surefire-reports/
+allure-results/
+allure-report/
+*.log
