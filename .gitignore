@@ -38,3 +38,6 @@ surefire-reports/
 allure-results/
 allure-report/
 *.log
+
+# Sensitive Credentials
+config.properties
