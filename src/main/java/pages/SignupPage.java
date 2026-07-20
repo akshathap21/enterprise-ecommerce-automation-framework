@@ -90,4 +90,10 @@ public class SignupPage extends BasePage {
         actions.doClick(continueWorkflowButton);
         return new HomePage(driver);
     }
+
+
+	public String getSignupErrorMessage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

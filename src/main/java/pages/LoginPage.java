@@ -35,13 +35,13 @@ public class LoginPage  extends BasePage{ // <--- THIS IS INHERITANCE
      * Fluent action pattern method.
      * Performs login steps and returns itself to allow ongoing verification tracking.
      */
-    public LoginPage login(String email, String password) {
+    public HomePage  login(String email, String password) {
     	actions.doClick(login_singup_button);
 
         actions.doSendKeys(loginEmailField, email);
         actions.doSendKeys(loginPasswordField, password);
         actions.doClick(loginButton);
-        return this; // Returns the page instance cleanly
+        return new HomePage(driver); // Returns the page instance cleanly
     }
     
     
@@ -63,6 +63,10 @@ public class LoginPage  extends BasePage{ // <--- THIS IS INHERITANCE
     public String getSignupErrorMessage() {
         return actions.doGetText(signupErrorAlert);
     }
+
+
+
+
 }
 
 

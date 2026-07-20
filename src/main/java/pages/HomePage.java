@@ -81,4 +81,6 @@ public class HomePage extends BasePage {
     public String getLoggedInUserText() {
         return actions.doGetText(loggedInUserHeaderMessage);
     }
+    
+ 
 }
