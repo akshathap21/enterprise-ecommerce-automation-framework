@@ -28,5 +28,20 @@
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- Jackson Databind Dependency for Parsing JSON Test Data Matrices -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.17.0</version>
+</dependency>
+
+<!-- Google GSON for High-Performance JSON-POJO Mapping -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.11.0</version>
+</dependency>
+
+
     </dependencies>
 </project>

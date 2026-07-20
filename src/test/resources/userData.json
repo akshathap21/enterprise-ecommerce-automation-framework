@@ -1,0 +1,26 @@
+{
+  "validUser": {
+    "name": "Senior Automation Engineer",
+    "password": "SecurePass123",
+    "day": "20",
+    "month": "July",
+    "year": "1995",
+    "firstName": "John",
+    "lastName": "Doe",
+    "company": "Enterprise Corp",
+    "address": "123 Tech Lane",
+    "country": "India",
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "zipcode": "560001",
+    "mobile": "9876543210"
+  },
+  "invalidUser": {
+    "email": "completely_fake_2026_profile@test.com",
+    "password": "WrongPassword"
+  },
+  "userCredentials":{
+	"email":"tester00@test.com",
+	"password":"test"
+  }
+}

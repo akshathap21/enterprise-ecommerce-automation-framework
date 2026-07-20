@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce Automation Framework Regression Suite" parallel="none">
+    
+    <test name="Login Functionality Verification Modules">
+        <classes>
+            <!-- Defining explicit execution tracking mappings targeting our test class -->
+            <class name="tests.LoginTest" />
+        </classes>
+    </test>
+    
+     <test name="Batch 1 &amp; 2: End-to-End Workflow Verifications">
+        <classes>
+            <class name="tests.UserProfileTest" />
+            <class name="tests.CoreInteractionTests" />
+        </classes>
+    </test>
+    
+</suite>
+
+
